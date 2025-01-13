@@ -1,8 +1,17 @@
-# React + Vite
+# AAPL Annual Financial Information Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application consists of a table that shows AAPL Annual Financial Information from 2020-2024
 
-Currently, two official plugins are available:
+Deployed Site: https://aaplvisualizer.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For local setup:
+1) Clone this repository
+2) Get api key from https://site.financialmodelingprep.com/
+3) Create a .env file in applvisualizer directory and enter api key into file like shown below
+   ```
+   VITE_FINANCIAL_API_KEY  = "ENTER API KEY HERE"
+   ```
+4) Use ```npm install ```  to install packages
+5) Use ```npm run dev ``` to start app locally
+6) Go to given site
+
