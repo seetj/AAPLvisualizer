@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Table from "./components/table";
 import Header from "./components/header";
-import StockHeader from "./components/stockheader";
-import getTableData from "./components/tabledata";
+import StockHeader from "./components/stockHeader";
+import getTableData from "./components/tableData";
 import { fetchAAPLData } from "./components/data";
 function App() {
   const [data, setData] = useState(null);
